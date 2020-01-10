@@ -1,0 +1,13 @@
+.menu{
+    min-height: 90vh;
+    max-height: 100vh !important;
+}
+.avatar {
+    display: flex !important;
+    justify-content: center !important;
+    height: 100px !important;
+
+}
+
+
+

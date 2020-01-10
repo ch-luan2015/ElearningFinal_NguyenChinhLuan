@@ -1,0 +1,31 @@
+.register-form {
+  max-width: 600px;
+  align-items: center !important;
+  margin: 50px auto !important;
+  padding-right: 120px !important;
+  text-align: center;
+  font-size: 36px;
+}
+.register-form .register-form_title {
+  font-size: 36px;
+  margin-left: 130px;
+}
+.register-form .register-form_item {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px auto !important;
+}
+.register-form .register-form-forgot {
+  font-size: 36px;
+  font-weight: 700;
+}
+.register-form .register-form-button {
+  font-size: 36px;
+  width: 70%;
+  margin-left: 50px;
+}
+.register-form .register-form-button button {
+  font-weight: 700;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=RegisterPage.css.map */

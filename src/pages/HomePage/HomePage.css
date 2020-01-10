@@ -1,0 +1,177 @@
+.homepage {
+  text-align: center !important;
+}
+.h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 10px;
+  line-height: 26px;
+  color: #000000;
+}
+.p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.ant-tabs-nav {
+  font-weight: 500;
+  font-size: 16px;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #1890ff;
+  font-size: 20px;
+}
+.tabHocVien {
+  margin-top: 10px;
+}
+.tabHocVien .tab {
+  align-items: justify;
+  font-size: 20px;
+  background-color: #FFFFFF;
+}
+.tabHocVien .tab .tabPane {
+  font-size: 16px;
+}
+.tabHocVien .tab .tabPane h3 {
+  font-size: 30px  !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-top: 20px !important;
+  line-height: 35px !important;
+  color: #000000 !important;
+}
+.tabHocVien .tab .tabPane p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-bottom: 5px  !important;
+  margin: 5px 10px !important;
+  padding: 5px 10px !important;
+  line-height: 30px !important;
+  color: #000000 !important;
+  text-align: center !important;
+}
+.tabPane2 .tabPane2_avatar {
+  margin-top: 150px;
+}
+.tabPane2 .tabPane2_avatar p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 0 !important;
+}
+.company {
+  padding: 20px 20px 50px;
+  background-color: #F4F4F4;
+}
+.company h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.company h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 10px;
+  line-height: 26px;
+  color: #000000;
+  font-size: 18px !important;
+  padding: 0 20px;
+}
+.reviewHocVien {
+  padding-bottom: 30px;
+}
+.reviewHocVien h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  padding: 20px;
+  margin: 50px 0 20px 0;
+}
+.academy {
+  background-color: #272634 !important;
+  font-size: 25px;
+  padding: 100px;
+}
+.academy h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  color: white;
+}
+.academy h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 10px;
+  line-height: 26px;
+  color: #000000;
+  color: white;
+}
+.ant-back-top {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum', "tnum";
+  position: fixed;
+  right: 30px !important;
+  bottom: 5px !important;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=HomePage.css.map */

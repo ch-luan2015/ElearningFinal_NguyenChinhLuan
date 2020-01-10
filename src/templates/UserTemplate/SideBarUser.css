@@ -1,0 +1,20 @@
+.SidebarUser {
+  background-color: #FFFFFF!important;
+  width: 100% !important;
+}
+.SidebarUser .SidebarUser_Menu {
+  background-color: #FAFAFA;
+  min-height: 80vh !important;
+  max-height: 100vh;
+}
+.SidebarUser .SidebarUser_Menu .SidebarUser_Menu_Item {
+  display: flex !important;
+  justify-content: center !important;
+  height: 100px !important;
+}
+.SidebarUser .SidebarUser_Menu .Menu_Item {
+  font-size: 20px !important;
+  margin-top: 30px !important;
+  font-weight: 400 !important;
+}
+/*# sourceMappingURL=SiderBar_User.css.map */

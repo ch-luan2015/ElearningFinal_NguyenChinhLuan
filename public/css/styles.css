@@ -1,0 +1,563 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+.homepage {
+  text-align: center !important;
+}
+.h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 10px;
+  line-height: 26px;
+  color: #000000;
+}
+.p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.ant-tabs-nav {
+  font-weight: 500;
+  font-size: 16px;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #1890ff;
+  font-size: 20px;
+}
+.tabHocVien {
+  margin-top: 10px;
+}
+.tabHocVien .tab {
+  align-items: justify;
+  font-size: 20px;
+  background-color: #FFFFFF;
+}
+.tabHocVien .tab .tabPane {
+  font-size: 16px;
+}
+.tabHocVien .tab .tabPane h3 {
+  font-size: 30px  !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-top: 20px !important;
+  line-height: 35px !important;
+  color: #000000 !important;
+}
+.tabHocVien .tab .tabPane p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-bottom: 5px  !important;
+  margin: 5px 10px !important;
+  padding: 5px 10px !important;
+  line-height: 30px !important;
+  color: #000000 !important;
+  text-align: center !important;
+}
+.tabPane2 .tabPane2_avatar {
+  margin-top: 150px;
+}
+.tabPane2 .tabPane2_avatar p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 0 !important;
+}
+.company {
+  padding: 20px 20px 50px;
+  background-color: #F4F4F4;
+}
+.company h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.company h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  line-height: 26px;
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  font-size: 18px !important;
+  padding: 0 20px;
+}
+.reviewHocVien {
+  padding-bottom: 30px;
+}
+.reviewHocVien h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  padding: 20px;
+  margin: 50px 0 20px 0;
+}
+.academy {
+  background-color: #272634 !important;
+  font-size: 25px;
+  padding: 100px;
+}
+.academy h3 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  color: white;
+}
+.academy h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  line-height: 26px;
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+  color: white;
+}
+.ant-back-top {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum', "tnum";
+  position: fixed;
+  right: 30px !important;
+  bottom: 5px !important;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.h4 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.footer {
+  background-color: #F4F4F4;
+  text-align: center !important;
+  padding: 50px 50px 10px 50px;
+}
+.footer .footer_top .event h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  line-height: 26px;
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.footer .footer_top .event p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.footer .footer_map .footer_grids {
+  margin-right: 30px;
+}
+.footer .footer_banQuyen p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.Header_Admin {
+  background-color: #0F0F0E !important;
+  line-height: 70px;
+  padding: 0 !important;
+  border-bottom-style: solid 1px #0F0F0E;
+}
+.Header_Admin .Admin_Logo-Row {
+  background-color: #001429;
+}
+.Header_Admin .Admin_Logo-Row .Admin-Logo img {
+  width: 70px !important;
+  height: 70px !important;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.Header_Admin .Admin_Logo-Row .Admin-Logo span {
+  font-size: 30px;
+  border-bottom: none;
+}
+.Header_Admin .Admin-Col_Menu .Admin_Menu {
+  line-height: 89px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: none;
+}
+.Header_Admin .Admin-Col_Menu .Admin_Menu button {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.NavBar_Menu {
+  font-size: 18px !important;
+  line-height: 50px !important ;
+}
+.NavBar_Menu .ant-menu-item,
+.NavBar_Menu .ant-menu-submenu-title {
+  padding: 0 60px;
+}
+.FooterAdmin {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff !important;
+  padding-left: 100px !important	;
+}
+.FooterAdmin .FooterAdmin_Menu {
+  border-style: none;
+  line-height: 50px;
+}
+.FooterAdmin .FooterAdmin_Menu .ant-menu-item > a::before {
+  border-style: none !important;
+}
+.SidebarAdmin {
+  width: 90% !important;
+  min-height: 100vh !important;
+  background-color: #001429 !important;
+}
+.SidebarAdmin .SidebarAdmin_Menu_Item {
+  display: flex !important;
+  justify-content: center !important;
+  height: 100px !important;
+}
+.login-form {
+  max-width: 600px;
+  max-height: 300px;
+  margin: 100px auto !important;
+  align-items: justify !important;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.login-form .login-form_title {
+  font-size: 36px;
+  margin-left: 150px;
+}
+.login-form .login-form_item {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 30px auto !important;
+}
+.login-form-forgot {
+  float: right;
+  padding-right: 70px;
+  margin-right: 20px;
+}
+.login-form-button {
+  width: 30%;
+  margin-right: 30px ;
+}
+.register-form {
+  max-width: 600px;
+  align-items: center !important;
+  margin: 50px auto !important;
+  padding-right: 120px !important;
+  text-align: center;
+  font-size: 36px;
+}
+.register-form .register-form_title {
+  font-size: 36px;
+  margin-left: 130px;
+}
+.register-form .register-form_item {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px auto !important;
+}
+.register-form .register-form-forgot {
+  font-size: 36px;
+  font-weight: 700;
+}
+.register-form .register-form-button {
+  font-size: 36px;
+  width: 70%;
+  margin-left: 50px;
+}
+.register-form .register-form-button button {
+  font-weight: 700;
+  margin-left: 20px;
+}
+.User_Layout-Content {
+  margin: 10px !important;
+}
+.SidebarUser {
+  background-color: #FFFFFF!important;
+  width: 90% !important;
+}
+.SidebarUser .SidebarUser_Menu {
+  background-color: #FAFAFA;
+  min-height: 100vh !important;
+}
+.SidebarUser .SidebarUser_Menu .SidebarUser_Menu_Item {
+  display: flex !important;
+  justify-content: center !important;
+  height: 100px !important;
+}
+.Layout_Content .SideBarAdmin_Layout {
+  background-color: #FFFFFF !important;
+}
+/*# sourceMappingURL=styles.css.map */

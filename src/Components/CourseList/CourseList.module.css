@@ -1,0 +1,52 @@
+.container-fluid{
+    margin: 5px ;
+    padding: 0;
+}
+
+.courselist{
+	padding-left: 30px ;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+
+
+.table {
+	background-color: white !important;
+	text-align: center !important;
+	padding: 10px;
+	padding-top: 20px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom: 1px solid rgb(212, 212, 212);
+	
+}
+
+
+.title {
+	text-align: left;
+	font-weight: 700;
+	color: #fd3550;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0;
+	background-color: #ecedf0;
+	border-bottom: 1px solid #e3e6f0;
+	border-top: 1px solid rgb(212, 212, 212);
+	
+}
+.searchBox {
+	padding: 10px 100px 10px 10px !important;
+	display: flex;
+	justify-content: flex-start	;
+	align-items: center;
+	
+}
+
+
+
+
+
+

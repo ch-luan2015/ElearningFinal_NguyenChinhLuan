@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,EAAE",
+"sources": ["CourseDetail.scss"],
+"names": [],
+"file": "CourseDetail.css"
+}

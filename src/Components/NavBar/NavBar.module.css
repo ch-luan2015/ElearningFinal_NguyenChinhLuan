@@ -1,0 +1,13 @@
+
+
+.menu{
+    display: flex;
+    justify-content:space-between	;
+    border-top: 1px solid rgb(212, 212, 212) ;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    font-size: 16px !important;
+} 
+
+.ant-menu-item, .ant-menu-submenu-title{
+    padding:10px;
+}

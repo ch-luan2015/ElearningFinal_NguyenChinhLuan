@@ -1,0 +1,28 @@
+.login-form {
+  max-width: 600px;
+  max-height: 300px;
+  margin: 100px auto !important;
+  align-items: justify !important;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.login-form .login-form_title {
+  font-size: 36px;
+  margin-left: 150px;
+}
+.login-form .login-form_item {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 30px auto !important;
+}
+.login-form-forgot {
+  float: right;
+  padding-right: 70px;
+  margin-right: 20px;
+}
+.login-form-button {
+  width: 30%;
+  margin-right: 30px ;
+}
+/*# sourceMappingURL=Login.css.map */

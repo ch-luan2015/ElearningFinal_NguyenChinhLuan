@@ -1,0 +1,9 @@
+.NavBar_Menu {
+  font-size: 18px !important;
+  line-height: 50px !important ;
+}
+.NavBar_Menu .ant-menu-item,
+.NavBar_Menu .ant-menu-submenu-title {
+  padding: 0 60px;
+}
+/*# sourceMappingURL=NavBar.css.map */

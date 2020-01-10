@@ -1,0 +1,11 @@
+.SidebarAdmin {
+  width: 90% !important;
+  min-height: 100vh !important;
+  background-color: #001429 !important;
+}
+.SidebarAdmin .SidebarAdmin_Menu_Item {
+  display: flex !important;
+  justify-content: center !important;
+  height: 100px !important;
+}
+/*# sourceMappingURL=SiderbarAdmin.css.map */

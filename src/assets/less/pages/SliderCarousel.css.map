@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACD,UAAU,EAAE,EAAE;;AAElB,mBAAoB;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["SliderCarousel.scss"],
+"names": [],
+"file": "SliderCarousel.css"
+}

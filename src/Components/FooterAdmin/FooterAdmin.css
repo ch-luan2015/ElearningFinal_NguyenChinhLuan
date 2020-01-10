@@ -1,0 +1,16 @@
+.FooterAdmin {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff !important;
+  padding-left: 100px !important	;
+}
+.FooterAdmin .FooterAdmin_Menu {
+  border-style: none;
+  line-height: 50px;
+}
+.FooterAdmin .FooterAdmin_Menu .ant-menu-item > a::before {
+  border-style: none !important;
+}
+/*# sourceMappingURL=FooterAdmin.css.map */

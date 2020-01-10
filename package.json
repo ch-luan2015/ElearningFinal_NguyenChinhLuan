@@ -1,0 +1,58 @@
+{
+  "name": "elearning27",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "antd": "^3.25.3",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "perfect-scrollbar": "^1.4.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.1",
+    "react-scripts": "^3.3.0",
+    "react-slick": "^0.25.2",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "sweetalert-react": "^0.4.11",
+    "sweetalert2": "^8.18.0",
+    "yarn": "^1.19.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-dev-utils": "^12.0.5",
+    "@ckeditor/ckeditor5-theme-lark": "^16.0.0",
+    "less": "^3.10.3",
+    "prettier": "^1.18.2",
+    "raw-loader": "^4.0.0"
+  }
+}

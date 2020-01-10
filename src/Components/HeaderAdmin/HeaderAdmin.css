@@ -1,0 +1,32 @@
+.Header_Admin {
+  background-color: #0F0F0E !important;
+  line-height: 70px;
+  padding: 0 !important;
+  border-bottom-style: solid 1px #0F0F0E;
+}
+.Header_Admin .Admin_Logo-Row {
+  background-color: #001429;
+}
+.Header_Admin .Admin_Logo-Row .Admin-Logo img {
+  width: 70px !important;
+  height: 70px !important;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.Header_Admin .Admin_Logo-Row .Admin-Logo span {
+  font-size: 30px;
+  border-bottom: none;
+}
+.Header_Admin .Admin-Col_Menu .Admin_Menu {
+  line-height: 89px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: none;
+}
+.Header_Admin .Admin-Col_Menu .Admin_Menu button {
+  margin-top: 20px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=HeaderAdmin.css.map */

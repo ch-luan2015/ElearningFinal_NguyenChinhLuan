@@ -1,0 +1,52 @@
+.h4 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.footer {
+  background-color: #F4F4F4;
+  text-align: center !important;
+  padding: 50px 50px 10px 50px;
+}
+.footer .footer_top .event h4 {
+  font-size: 30px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.footer .footer_top .event p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px ;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.footer .footer_map .footer_grids {
+  margin-right: 30px;
+}
+.footer .footer_banQuyen p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Footer.css.map */

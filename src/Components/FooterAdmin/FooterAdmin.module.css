@@ -1,0 +1,12 @@
+footer{
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding: 0 !important;
+  line-height: 35px;
+}
+
+.menu{
+  background-color: #F1F2F5 !important;
+  height: 30px !important;
+
+}
